@@ -53,7 +53,7 @@ public class BaseTest implements IAutoConstant {
 
 	}
 
-	@AfterClass(enabled = false)
+	@AfterClass(enabled = true)
 	public void closeApplication() throws InterruptedException {
 		Thread.sleep(2000);
 		driver.quit();
